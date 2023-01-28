@@ -42,14 +42,31 @@ namespace ClearConsole
             Console.WriteLine("*************************************************************************");
             Console.WriteLine("Math Section");
             Console.WriteLine("************************************************************************");
-            Console.WriteLine(" Math.FusedMultiplyAdd" );
             int x = 30;
-            Console.WriteLine($"Enter an Integer For Integer1: {x}");
+            Console.WriteLine("Enter an Integer For Integer1: 30");
             int y = 7;
-            Console.WriteLine($"Enter an Integer For Integer2: {y}");
-            Console.WriteLine($"{x} + {y} = 37");
-            Console.WriteLine($"{x} - {y} = 23");
-            Console.WriteLine($"{x} * {y} = 23");
+            Console.WriteLine("Enter an Integer For Integer2: 7");
+            Console.WriteLine(x + y);
+            Console.WriteLine(x - y);
+            Console.WriteLine(x * y);
+            Console.WriteLine(x / y);
+            Console.WriteLine(x % y);
+            
+            
+            Console.WriteLine("*************************************************************************");
+            Console.WriteLine("Circle Area and Circumference Calculator");
+            Console.WriteLine("************************************************************************");
+            Console.Write("Enter Radius: ");
+            double Radius = Convert.ToDouble(Console.ReadLine());
+            double Area = Math.PI * Radius * Radius;
+            double PI = 3.14;
+            double area = Math.PI * Math.Pow(Radius, 2);
+            double circumference = 2 * Math.PI * Radius;
+            Console.WriteLine(PI * Radius * Radius);
+            Console.WriteLine("Area of circle: " + Area);
+            
+
+
 
 
 
