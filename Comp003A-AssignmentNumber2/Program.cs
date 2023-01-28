@@ -2,6 +2,8 @@
  * Course: Comp - 003A - L01
  * Code for assignment 2
 */
+using System.Security.Cryptography.X509Certificates;
+
 namespace ClearConsole
 
 {
@@ -40,7 +42,16 @@ namespace ClearConsole
             Console.WriteLine("*************************************************************************");
             Console.WriteLine("Math Section");
             Console.WriteLine("************************************************************************");
+            int x = 30;
+            Console.WriteLine($"Enter an Integer For Integer1: {x}");
+            int y = 7;
+            Console.WriteLine($"Enter an Integer For Integer2: {y}");
+            Console.WriteLine($"30 + 7 = 37");
+
+
+
         }
+
     }
 }
 
