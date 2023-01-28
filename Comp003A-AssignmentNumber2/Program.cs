@@ -42,11 +42,15 @@ namespace ClearConsole
             Console.WriteLine("*************************************************************************");
             Console.WriteLine("Math Section");
             Console.WriteLine("************************************************************************");
+            Console.WriteLine(" Math.FusedMultiplyAdd" );
             int x = 30;
             Console.WriteLine($"Enter an Integer For Integer1: {x}");
             int y = 7;
             Console.WriteLine($"Enter an Integer For Integer2: {y}");
-            Console.WriteLine($"30 + 7 = 37");
+            Console.WriteLine($"{x} + {y} = 37");
+            Console.WriteLine($"{x} - {y} = 23");
+            Console.WriteLine($"{x} * {y} = 23");
+
 
 
 
